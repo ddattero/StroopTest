@@ -1,0 +1,49 @@
+:root {
+    --red: rgb(255, 0, 0);
+    --blue: rgb(0, 0, 255);
+    --green: rgb(0, 191, 0);
+    --purple: rgb(127, 0, 255);
+    --bg: rgb(230, 230, 230);
+}
+
+body {
+    font-family: 'Verdana', 'Verdana', 'sans-serif';
+    align-items: center;
+    width: 75%;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+#examples {
+    text-align: center;
+}
+
+#ex1 {
+    color: var(--blue);
+}
+
+#ex2 {
+    color: var(--purple);
+}
+
+#ex3 {
+    color: var(--green);
+}
+
+#ex4 {
+    color: var(--red);
+}
+
+p {
+    text-align: justify;
+}
+
+a {
+    background: rgb(0, 170, 255);
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+}
