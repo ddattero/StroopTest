@@ -1,11 +1,31 @@
+<!DOCTYPE html>
 <html>
 
     <head>
-        Stroop Test
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <script src="scripts/stroop.js"></script>
         <link rel="stylesheet" type="text/css" href="styles/stroop-stylesheet.css" />
-
+        <title>Stroop Test</title>
     </head>
+
+    <body onload="main()">
+        <p id="prompt">Select the COLOR of the word:</p>
+        <br>
+
+        <p id="display">
+
+        </p>
+        <br>
+        <div id="choices">
+            <a href="javascript:blueClick()">blue</a>
+            <a href="javascript:redClick()">red</a>
+            <a href="javascript:greenClick()">green</a>
+            <a href="javascript:purpleClick()">purple</a>
+        </div>
+        <br>
+        <a id="restart" href="javascript:main()">Restart</a>
+    </body>
 
 
 </html>

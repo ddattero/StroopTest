@@ -1,0 +1,20 @@
+@import "stylesheet.css";
+
+body {
+   text-align: center;
+   
+}
+
+#choices a {
+    font-size: 20pt;
+    background-color: white;
+    color: black;
+    display: inline-block;
+}
+
+
+
+p {
+    font-size: 32pt;
+    display: inline-block;
+}
